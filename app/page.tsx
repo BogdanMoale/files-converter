@@ -7,7 +7,10 @@ export default function Home() {
       {/* Title + Desc */}
       <div className="space-y-6">
         <h1 className="text-3xl md:text-5xl font-medium text-center">
-          File Converter
+          Supported files:
+          <span style={{ fontWeight: "bold", fontStyle: "italic" }}>
+            audio, videos and images
+          </span>
         </h1>
       </div>
 

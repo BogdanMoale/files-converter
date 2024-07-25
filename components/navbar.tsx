@@ -2,7 +2,7 @@
 import Image from "next/image";
 import { Button } from "./ui/button";
 import Link from "next/link";
-import { BsGithub } from "react-icons/bs";
+
 import {
   Sheet,
   SheetContent,
@@ -41,26 +41,8 @@ export default function Navbar({}): any {
                     </Button>
                   </Link>
                 </SheetTrigger>
-                <SheetTrigger asChild>
-                  <Link href="/about">
-                    <Button
-                      variant="link"
-                      className="w-full font-semibold text-md"
-                    >
-                      About
-                    </Button>
-                  </Link>
-                </SheetTrigger>
-                <SheetTrigger asChild>
-                  <Link href="/privacy-policy">
-                    <Button
-                      variant="link"
-                      className="w-full font-semibold text-md"
-                    >
-                      Privacy Policy
-                    </Button>
-                  </Link>
-                </SheetTrigger>
+                <SheetTrigger asChild></SheetTrigger>
+                <SheetTrigger asChild></SheetTrigger>
                 <ModeToggle />
               </div>
             </SheetDescription>
